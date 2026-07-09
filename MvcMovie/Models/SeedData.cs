@@ -53,6 +53,31 @@ public static class SeedData
                 Genre = "Western",
                 Price = 3.99M,
                 Rating = "PG"
+            },
+
+            new Movie
+            {
+                Title = "The Godfather",
+                ReleaseDate = DateTime.Parse("1972-3-24"),
+                Genre = "Crime",
+                Price = 10.99M,
+                Rating = "R"
+            },
+            new Movie
+            {
+                Title = "Black Panther",
+                ReleaseDate = DateTime.Parse("2018-02-16"),
+                Genre = "Action",
+                Price = 14.99M,
+                Rating = "PG-13"
+            },
+            new Movie
+            {
+                Title = "The Lion King",
+                ReleaseDate = DateTime.Parse("1994-06-15"),
+                Genre = "Animation",
+                Price = 15.99M,
+                Rating = "G"
             }
         );
 
